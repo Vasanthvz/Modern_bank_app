@@ -138,3 +138,9 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.color{
+  background-color: #214d76;
+  padding: 0%;
+  box-sizing: border-box;
+}
