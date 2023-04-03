@@ -5,7 +5,7 @@ const App = () =>(
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}> 
-            <Navbar/>
+           <Navbar/>
         </div>
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
@@ -26,6 +26,19 @@ const App = () =>(
         </div>
       </div>
     </div>
-  );
+);
 
 export default App
+// import React from 'react'
+
+// const App = () =>(
+//     <div className='bg-primary w-full overflow-hidden'>
+//     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+//     <div className={`${styles.boxWidth}`}> 
+//        <Navbar/>
+//     </div>
+//   </div>
+//   </div>
+//   )
+
+// export default App
