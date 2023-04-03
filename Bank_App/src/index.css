@@ -168,11 +168,17 @@
 .h-32px{
   height: 32px;
 }
-
+.font-normal{
+  font-style: normal;
+} 
+.cursor-pointer{
+  cursor: pointer;
+}
 
 
 
 /* NavBar */
 .navbar{
-  
+  margin: auto;
+  width: 85%;
 }
