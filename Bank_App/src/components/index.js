@@ -22,5 +22,8 @@ export{
     Stats,
     Footer,
     FeedBackCard,
-    Testimonials
+    Testimonials,
+    Hero,
+    Button,
+    GetStarted
 };
