@@ -145,8 +145,6 @@
 }
 .bg-primary{
   background-color: black;
-  display: flex;
-  flex-direction: column;
 }
 .w-full{
   padding: 0;
