@@ -11,3 +11,16 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
+
+export{
+    Navbar,
+    Billing,
+    CardDeal,
+    Business,
+    Clients,
+    CTA,
+    Stats,
+    Footer,
+    FeedBackCard,
+    Testimonials
+};
