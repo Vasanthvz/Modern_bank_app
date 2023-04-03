@@ -138,7 +138,7 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -173,12 +173,12 @@
 } 
 .cursor-pointer{
   cursor: pointer;
-}
+} */
 
 
 
 /* NavBar */
-.navbar{
+/* .navbar{
   margin: auto;
   width: 85%;
-}
+} */
