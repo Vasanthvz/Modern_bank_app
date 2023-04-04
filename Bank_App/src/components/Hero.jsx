@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style'
+import "../index.css"
 import { discount,robot } from '../assets';
 const Hero = () =>(
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -12,7 +13,7 @@ const Hero = () =>(
               </p>
           </div>
           <div className='flex flex-row justify-between items-center w-full'>
-              <h1>
+              <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white'>
                 The Next <br className='sm:block hidden'/>{" "}
                 <span className='text-gradient'>Generation</span>
                 Payment Method
