@@ -1,7 +1,8 @@
-import React from 'react'
-import styles from '../style'
-import "../index.css"
+import React from 'react';
+import styles from '../style';
+import "../index.css";
 import { discount,robot } from '../assets';
+import GetStarted from './GetStarted';
 const Hero = () =>(
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
        <div className={`flex-1 ${styles.flexStart} md:flex-row flex-col xl:px-16 px-6`}>
@@ -13,11 +14,14 @@ const Hero = () =>(
               </p>
           </div>
           <div className='flex flex-row justify-between items-center w-full'>
-              <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white'>
+              <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] ss:leading-[100px] text-[52px] text-white leading-[75px]'>
                 The Next <br className='sm:block hidden'/>{" "}
                 <span className='text-gradient'>Generation</span>
                 Payment Method
               </h1>
+              <div className='ss:flex hidden md:mr-4 mr-0'>
+                  <GetStarted/>
+              </div>
           </div>
        </div>
     </section>

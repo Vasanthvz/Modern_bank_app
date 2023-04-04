@@ -6,7 +6,6 @@ import Clients from "./Clients";
 import CTA from "./CTA";
 import FeedBackCard from "./FeedBackCard";
 import Footer from "./Footer";
-import GetStarted from "./GetStarted";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Stats from "./Stats";
